@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Il Fatto Quotidiano - News su politica, cronaca, giustizia ed economia</title>
+    <meta name="description" content="notizie">
+    <meta name="keywords" content="Il Fatto Quotidiano - News su politica, cronaca, giustizia ed economia">
+    <meta name="viewport" content="width-device-width, initial-scale-1.0, maximum-scale-1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stylesheet.css" >
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar unview">
+            <div class="front-button">
+                <h3 class="unview" style="font-family: Times New Roman, sans-serif; font-size: 22px"> Sostieni il nostro giornalismo.</h3>
+                <p class="unview" style="font-size: 11px; font-weight: lighter">
+                    Leggere quello che gli altri non dicono dipende da te.</p>
+                <div class="button" onclick='alert("You have been redirected to the donation page.")'>
+                    <div class="center">
+                        <a id="button-color" href="#" style="font-size: small"> SOSTIENICI </a>
+                    </div>
+                </div>
+            </div>
+            <div class="logo">
+                <a href="#"  title="Logo"><img src= "https://unsplash.it/250/100"/></a>
+            </div>
+            <div class="front-menu">
+                <ul id="menu-primary" style="list-style-type: none">
+                    <li class="infobox"><a href="#" title="Info">
+                        <div class="container" onclick="myFunction(this)">
+                            <div class="bar1"></div>
+                            <div class="bar2"></div>
+                            <div class="bar3"></div>
+                        </div>
+                        <script>
+                            function myFunction(x) {
+                                x.classList.toggle("change");
+                            }
+                        </script></a>
+                    </li>
+                    <li>
+                        <a href="#"  title="Search" onclick='alert("You have been redirected to another site")'>
+                            <img
+                                    id="search"
+                                    src="./images/search-svgrepo-com.svg"
+                                    alt="Search"
+                                    height="21px"
+                                    width="21px" />
+                        </a>
+                    </li>
+                    <li class="active"> <a href="#"  title="Accedi" onclick='alert("You have been redirected to another site")'>Accedi</a></li>
+                    <li class="highlighted unview"> <a href="#" title="Abbonati" onclick='alert("You have been redirected to another site")'>Abbonati</a></li>
+                    <li class="unview"> <a href="#" title="Shop" onclick='alert("You have been redirected to another site")'>Shop</a></li>
+                    <li class="unview"> <a href="#" title="FondazioneFQ" onclick='alert("You have been redirected to another site")'>FondazioneFQ</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <section class="director-container">
+            <p>Direttore: Peter Cognome</p>
+            <p>Aggiornato alle ore di ieri a quest'ora</p>
+        </section>
+
+        <section class="secondary-container">
+            <p>Temi del giorno</p>
+            <div>
+                <ul id="news" style="list-style-type: none">
+                    <li> <a href="#" title="Notizia 1">NOTIZIA UNO</a></li>
+                    <li> <a href="#" title="Notizia 2">SECONDA NOTIZIA</a></li>
+                    <li> <a href="#" title="Notizia 3">NOTIZIA TER</a></li>
+                    <li> <a href="#" title="Notizia 4">NOTIZIONA 4</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul id="front-social" style="list-style-type: none">
+                    <li style="padding-left:1em"> <a href="#" title="Newsletter"><img
+                            src="./images/telegram-svgrepo-com.svg"
+                            alt="Newsletter"
+                            height="20px"
+                            width="20px"  /></a></li>
+                    <li style="padding-left:1em"> <a href="#" title="Instagram"><img
+                            src="./images/instagram-svgrepo-com.svg"
+                            alt="Instagram"
+                            height="20px"
+                            width="20px"  /></a></li>
+                    <li style="padding-left:1em"> <a href="#" title="Twitter"><img
+                            src="./images/twitter-svgrepo-com.svg"
+                            alt="Twitter"
+                            height="20px"
+                            width="20px"  /></a></li>
+                    <li style="padding-left:1em"> <a href="#"  title="Facebook"><img
+                            src="./images/facebook-svgrepo-com.svg"
+                            alt="Facebook"
+                            height="20px"
+                            width="20px" /></a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="red-bar-container">
+            <div class="red-bar-left">
+                <p style="font-size: larger; opacity: 0.8;"><b>FQ</b></p><p style="font-size: large"><b>EXTRA</b></p><p style="font-size: large; padding: 0 12px 0 12px"><b>&#8226</b></p><p style="font-size: medium; padding-right: 5px">LA SEZIONE <b>PREMIUM</b></p><p class="unview" style="font-size: medium">DEL FATTO QUOTIDIANO</p>
+            </div>
+            <div class="red-bar-right">
+                <a href="#" title="Abbonati" ><b>ABBONATI</b></a>
+            </div>
+        </section>
+
+        <section class="grey-bar">
+        </section>
+
+        <section class="articles-container">
+            <div>
+                <a class="title" href="#" title="article 1" style="font-size: 30px">Suspendisse sed justo vestibulum, pharetra nisi non,<br> accumsan eros. Curabitur enim purus, euismod et sem.</a>
+                <br>
+                <a href="#" title="article 1" style="padding-right: 20px; float: left"><img src= "https://unsplash.it/300/175"/></a>
+                <div class="adapter">
+                    <a id="author1" href="#" title="autore">Di <i>Autore Ipsum</i></a>
+                    <ul  class="social-articles">
+                        <li style="padding-left:1em"><a href="#" title="Commenta"><img
+                                src="./images/comment-discussion-svgrepo-com.svg"
+                                alt="Commenta"
+                                height="20px"
+                                width="20px"  /></a></li>
+                        <li style="padding-left:1em"><a href="#" title="Condividi"><img
+                                src="./images/share-svgrepo-com.svg"
+                                alt="Condividi"
+                                height="20px"
+                                width="20px"  /></a></li>
+                        <li style="padding-left:1em"><a href="#"  title="Accedi"><img
+                                src="./images/bookmark-svgrepo-com.svg"
+                                alt="Accedi"
+                                height="20px"
+                                width="20px" /></a></li>
+                    </ul>
+                    <br>
+                </div>
+                <br>
+                <p><a href="#" title="article 1.a"><b style="color: #8e0000">DATA</b> - In viverra, sem nec tincidunt molestie <br> neque lorem finibus leo </a></p>
+                <hr color="#8e0000" width="2%" style="margin: 5px 0 5px 0">
+                <p><a href="#" title="article 1.b"><b style="color: #8e0000">DATA</b> - Vivamus maximus euismod molestie <br> Suspendisse accumsan mi  </a></p>
+            </div>
+            <div class="video-section">
+                <a href="#" title="video" ><img src= "https://unsplash.it/275/175"/></a>
+                <br>
+                <a href="#" title="Sezione Video" style="color: #8e0000"> VIDEO</a>
+                <br>
+                <a href="#" title="video"><p>Integer est ipsum, egestas quis<br>fermentum ut, pulvinar ut nunc.</p></a>
+            </div>
+            <div><br>
+                <a class="title" href="#" title="article 2" style="font-size: 40px">Phasellus nisi erat, commodo id turpis placerat, vehicula volutpat ante. Nam lectus magna, iaculis non ornare feugiat, suscipit eget diam.</a>
+                <br><br>
+                <a href="#" title="article 2" style="padding-right: 20px; float: left"><img src= "https://unsplash.it/600/400"/></a>
+                <a href="#" title="article 2.a" style="font-size: 22px"><b style="color: #8e0000">PRAESENT TEMPUS COMMODO</b> - Mauris nec egestas dolor, ac facilisis neque. Vivamus dignissim tincidunt elit, porta pretium turpis dictum nec. Nullam lectus dui, venenatis vel nulla vitae, ultrices finibus velit. Nulla auctor odio orci, tempor dignissim purus venenatis vitae.</a>
+                <div class="adapter">
+                    <a id="author2" href="#" title="autore" >Di <i>Massimo L'Esperto</i></a>
+                    <ul  class="social-articles">
+                        <li style="padding-left:1em"><a href="#" title="Commenta"><img
+                                src="./images/comment-discussion-svgrepo-com.svg"
+                                alt="Commenta"
+                                height="20px"
+                                width="20px"  /></a></li>
+                        <li style="padding-left:1em"><a href="#" title="Condividi"><img
+                                src="./images/share-svgrepo-com.svg"
+                                alt="Condividi"
+                                height="20px"
+                                width="20px"  /></a></li>
+                        <li style="padding-left:1em"><a href="#"  title="Accedi"><img
+                                src="./images/bookmark-svgrepo-com.svg"
+                                alt="Accedi"
+                                height="20px"
+                                width="20px" /></a></li>
+                    </ul>
+                    <br>
+                </div>
+                <br>
+                <p><a href="#" title="article 2.b"><b style="color: #8e0000">DATA</b> - In viverra, sem nec tincidunt molestie<br>neque lorem finibus leo</a></p>
+                <hr color="#8e0000" width="2%" style="margin: 5px 0 5px 0">
+                <p><a href="#" title="article 2.c"><b style="color: #8e0000">DATA</b> - Vivamus maximus euismod molestie<br>Suspendisse accumsan mi</a></p>
+                <br><br>
+            </div>
+            <div>
+                <a class="title" href="#" title="article 3" style="font-size: 30px">Pellentesque habitant morbi tristique senectus et netus.<br>Accumsan eros. Curabitur enim purus, euismod et sem.</a>
+                <br>
+                <a href="#" title="article 3" style="padding-right: 20px; float: left"><img src= "https://unsplash.it/300/200"/></a>
+                <div class="adapter">
+                    <a id="author3" href="#" title="autore">Di <i>Autore</i></a>
+                    <ul class="social-articles">
+                        <li style="padding-left:1em"> <a href="#" title="Commenta"><img
+                                src="./images/comment-discussion-svgrepo-com.svg"
+                                alt="Commenta"
+                                height="20px"
+                                width="20px"/></a></li>
+                        <li style="padding-left:1em"> <a href="#" title="Condividi"><img
+                                src="./images/share-svgrepo-com.svg"
+                                alt="Condividi"
+                                height="20px"
+                                width="20px"/></a></li>
+                        <li style="padding-left:1em"> <a href="#"  title="Accedi"><img
+                                src="./images/bookmark-svgrepo-com.svg"
+                                alt="Accedi"
+                                height="20px"
+                                width="20px"/></a></li>
+                    </ul>
+                    <br>
+                </div>
+                <br>
+                <p><a href="#" title="article 3.a"><b style="color: #8e0000">DATA</b> - In viverra, sem nec tincidunt molestie <br> neque lorem finibus leo</a></p>
+                <hr color="#8e0000" width="2%" style="margin: 5px 0 5px 0">
+                <p><a href="#" title="article 3.b"><b style="color: #8e0000">DATA</b> - Vivamus maximus euismod molestie <br> Suspendisse accumsan mi</a></p>
+            </div>
+            <div class="ad-container">
+                <a href="#" title="pubblicità" style="opacity: 50%"><img src= "https://unsplash.it/280/280"/></a><br>
+                <p id="ad">SPAZIO<br>PUBBLICITARIO</p>
+            </div>
+            <div>
+                <h5 style="color: RGB(38, 175, 226)">DAI BLOG &#8594</h5>
+                <br>
+                <a href="#" title="article 1" style="padding-right: 20px; float: left"><img class="avatar" src="https://unsplash.it/50/50"/></a>
+                <div class="adapter">
+                    <a id="author4" href="#" title="autore" ><i>Nome Autore</i></a>
+                    <ul  class="social-articles">
+                        <li style="padding-left:1em"><a href="#" title="Commenta"><img
+                                src="./images/comment-discussion-svgrepo-com.svg"
+                                alt="Commenta"
+                                height="20px"
+                                width="20px"/></a></li>
+                        <li style="padding-left:1em"><a href="#" title="Condividi"><img
+                                src="./images/share-svgrepo-com.svg"
+                                alt="Condividi"
+                                height="20px"
+                                width="20px"/></a></li>
+                        <li style="padding-left:1em"><a href="#" title="Accedi"><img
+                                src="./images/bookmark-svgrepo-com.svg"
+                                alt="Accedi"
+                                height="20px"
+                                width="20px"/></a></li>
+                    </ul>
+                </div>
+                <p style="color: dimgrey">Professione autore</p>
+                <div style="padding-left: 20%">
+                    <p> <a href="#" title="article 1.a"><i>Proin porta ultrices bibendum.<br>Fusce consequat elementum tellus</i></a></p>
+                </div>
+                <a href="#" title="article 1" style="padding-right: 20px; float: left"><img class="avatar" src= "https://unsplash.it/49/49"/></a>
+                <div class="adapter">
+                    <a id="author5" href="#" title="autore"><i>Nome Autore</i></a>
+                    <ul  class="social-articles">
+                        <li style="padding-left:1em"> <a href="#" title="Commenta"><img
+                                src="./images/comment-discussion-svgrepo-com.svg"
+                                alt="Commenta"
+                                height="20px"
+                                width="20px"/></a></li>
+                        <li style="padding-left:1em"> <a href="#" title="Condividi"><img
+                                src="./images/share-svgrepo-com.svg"
+                                alt="Condividi"
+                                height="20px"
+                                width="20px"/></a></li>
+                        <li style="padding-left:1em"> <a href="#"  title="Accedi"><img
+                                src="./images/bookmark-svgrepo-com.svg"
+                                alt="Accedi"
+                                height="20px"
+                                width="20px"/></a></li>
+                    </ul>
+                </div>
+                <p style="color: dimgrey">Professione autore</p>
+                <div style="padding-left: 20%">
+                    <p> <a href="#" title="article 1.a" ><i> Proin porta ultrices bibendum.<br> Fusce consequat  elementum tellus,  </i> </a> </p>
+                </div>
+                <a href="#" title="article 1" style="padding-right: 20px; float: left"><img class="avatar" src= "https://unsplash.it/51/51"/></a>
+                <div class="adapter">
+                    <a id="author6" href="#" title="autore" ><i>Nome Autore</i></a>
+                    <ul  class="social-articles">
+                        <li style="padding-left:1em"> <a href="#" title="Commenta"><img
+                                src="./images/comment-discussion-svgrepo-com.svg"
+                                alt="Commenta"
+                                height="20px"
+                                width="20px"  /></a></li>
+                        <li style="padding-left:1em"> <a href="#" title="Condividi"><img
+                                src="./images/share-svgrepo-com.svg"
+                                alt="Condividi"
+                                height="20px"
+                                width="20px"  /></a></li>
+                        <li style="padding-left:1em"> <a href="#"  title="Accedi"><img
+                                src="./images/bookmark-svgrepo-com.svg"
+                                alt="Accedi"
+                                height="20px"
+                                width="20px" /></a></li>
+                    </ul>
+                </div>
+                <p style="color: dimgrey">Professione autore</p>
+                <div style="padding-left: 20%">
+                    <p><a href="#" title="article 1.a" ><i> Proin porta ultrices bibendum.<br> Fusce consequat  elementum tellus,  </i> </a> <br><br></p>
+                </div>
+            </div>
+            <div style="padding-right: 30%">
+                <br>
+                <a href="#" title="article 4" style="padding-right: 20px"><img src= "https://unsplash.it/275/150"/></a>
+                <br>
+                <p> <a href="#" title="cronaca nera"><b style="color: #8e0000">CRONACA NERA</b> </a> </p>
+                <a class="title" href="#" title="article 1" style="font-size: 20px">Suspendisse sed justo vestibulum,<br> pharetra nisi non, accumsan eros. <br>Curabitur enim purus, euismod </a>
+                <div class="adapter">
+                    <a id="author7" href="#" title="autore" >Di <i>Autore</i></a>
+                    <ul  class="social-articles">
+                        <li style="padding-left:1em"> <a href="#" title="Commenta"><img
+                                src="./images/comment-discussion-svgrepo-com.svg"
+                                alt="Commenta"
+                                height="20px"
+                                width="20px"  /></a></li>
+                        <li style="padding-left:1em"> <a href="#" title="Condividi"><img
+                                src="./images/share-svgrepo-com.svg"
+                                alt="Condividi"
+                                height="20px"
+                                width="20px"  /></a></li>
+                        <li style="padding-left:1em"> <a href="#"  title="Accedi"><img
+                                src="./images/bookmark-svgrepo-com.svg"
+                                alt="Accedi"
+                                height="20px"
+                                width="20px" /></a></li><br><br>
+                    </ul>
+                    <br>
+                </div>
+            </div>
+            <div>
+                <a href="#" title="article 5" style="padding-right: 20px"><img src= "https://unsplash.it/276/150"/></a>
+                <br>
+                <p> <a href="#" title="cronaca 1"><b style="color: #8e0000">CRONACA 1</b> </a> </p>
+                <a class="title" href="#" title="article 1" style="font-size: 20px">Suspendisse sed justo vestibulum,<br> pharetra nisi non, accumsan eros. <br>Curabitur enim purus, euismod</a>
+                <div class="adapter">
+                    <a id="author8" href="#" title="autore" >Di <i>Autore</i></a>
+                    <ul  class="social-articles">
+                        <li style="padding-left:1em"> <a href="#" title="Commenta"><img
+                                src="./images/comment-discussion-svgrepo-com.svg"
+                                alt="Commenta"
+                                height="20px"
+                                width="20px"  /></a></li>
+                        <li style="padding-left:1em"> <a href="#" title="Condividi"><img
+                                src="./images/share-svgrepo-com.svg"
+                                alt="Condividi"
+                                height="20px"
+                                width="20px"  /></a></li>
+                        <li style="padding-left:1em"> <a href="#"  title="Accedi"><img
+                                src="./images/bookmark-svgrepo-com.svg"
+                                alt="Accedi"
+                                height="20px"
+                                width="20px" /></a></li>
+                    </ul>
+                    <br>
+                </div>
+            </div>
+            <div>
+                <a href="#" title="article 6" style="padding-right: 20px"><img src= "https://unsplash.it/275/151"/></a>
+                <br>
+                <p> <a href="#" title="cronaca 2"><b style="color: #8e0000">CRONACA 2</b> </a> </p>
+                <a class="title" href="#" title="article 1" style="font-size: 20px">Suspendisse sed justo vestibulum,<br> pharetra nisi non, accumsan eros. <br>Curabitur enim purus, euismod </a>
+                <div class="adapter">
+                    <a id="author9" href="#" title="autore" >Di <i>Autore</i></a>
+                    <ul class="social-articles">
+                        <li style="padding-left:1em"><a href="#" title="Commenta"><img
+                                src="./images/comment-discussion-svgrepo-com.svg"
+                                alt="Commenta"
+                                height="20px"
+                                width="20px"/></a></li>
+                        <li style="padding-left:1em"><a href="#" title="Condividi"><img
+                                src="./images/share-svgrepo-com.svg"
+                                alt="Condividi"
+                                height="20px"
+                                width="20px"/></a></li>
+                        <li style="padding-left:1em"><a href="#"  title="Accedi"><img
+                                src="./images/bookmark-svgrepo-com.svg"
+                                alt="Accedi"
+                                height="20px"
+                                width="20px"/></a></li>
+                    </ul>
+                    <br>
+                </div>
+            </div>
+            <div>
+                <a href="#" title="article 7" style="padding-right: 20px"><img src="https://unsplash.it/274/150"/></a>
+                <br>
+                <p><a href="#" title="cronaca 3"><b style="color: #8e0000">CRONACA 3</b></a></p>
+                <a class="title" href="#" title="article 1" style="font-size: 20px">Suspendisse sed justo vestibulum,<br>pharetra nisi non, accumsan eros.<br>Curabitur enim purus, euismod</a>
+                <div class="adapter">
+                    <a id="author10" href="#" title="autore" >Di <i>Autore</i></a>
+                    <ul class="social-articles">
+                        <li style="padding-left:1em"><a href="#" title="Commenta"><img
+                                src="./images/comment-discussion-svgrepo-com.svg"
+                                alt="Commenta"
+                                height="20px"
+                                width="20px"/></a></li>
+                        <li style="padding-left:1em"><a href="#" title="Condividi"><img
+                                src="./images/share-svgrepo-com.svg"
+                                alt="Condividi"
+                                height="20px"
+                                width="20px"/></a></li>
+                        <li style="padding-left:1em"><a href="#"  title="Accedi"><img
+                                src="./images/bookmark-svgrepo-com.svg"
+                                alt="Accedi"
+                                height="20px"
+                                width="20px"/></a></li>
+                    </ul>
+                    <br>
+                </div>
+            </div>
+            <div>
+                <a href="#" title="article 8" style="padding-right: 20px"><img src="https://unsplash.it/274/150"/></a>
+                <br>
+                <p><a href="#" title="cronaca 4"><b style="color: #8e0000">CRONACA 4</b></a></p>
+                <a class="title" href="#" title="article 1" style="font-size: 20px">Suspendisse sed justo vestibulum,<br>pharetra nisi non, accumsan eros.<br>Curabitur enim purus, euismod</a>
+                <div class="adapter">
+                    <a id="author11" href="#" title="autore" >Di <i>Autore</i></a>
+                    <ul class="social-articles">
+                        <li style="padding-left:1em"><a href="#" title="Commenta"><img
+                                src="./images/comment-discussion-svgrepo-com.svg"
+                                alt="Commenta"
+                                height="20px"
+                                width="20px"/></a></li>
+                        <li style="padding-left:1em"><a href="#" title="Condividi"><img
+                                src="./images/share-svgrepo-com.svg"
+                                alt="Condividi"
+                                height="20px"
+                                width="20px"/></a></li>
+                        <li style="padding-left:1em"><a href="#"  title="Accedi"><img
+                                src="./images/bookmark-svgrepo-com.svg"
+                                alt="Accedi"
+                                height="20px"
+                                width="20px"/></a></li>
+                    </ul>
+                    <br>
+                </div>
+            </div>
+            <div>
+                <a href="#" title="article 9" style="padding-right: 20px"><img src="https://unsplash.it/274/150"/></a>
+                <br>
+                <p><a href="#" title="cronaca 5"><b style="color: #8e0000">CRONACA 5</b></a></p>
+                <a class="title" href="#" title="article 1" style="font-size: 20px">Suspendisse sed justo vestibulum,<br>pharetra nisi non, accumsan eros.<br>Curabitur enim purus, euismod</a>
+                <div class="adapter">
+                    <a id="author12" href="#" title="autore" >Di <i>Autore</i></a>
+                    <ul class="social-articles">
+                        <li style="padding-left:1em"><a href="#" title="Commenta"><img
+                                src="./images/comment-discussion-svgrepo-com.svg"
+                                alt="Commenta"
+                                height="20px"
+                                width="20px"/></a></li>
+                        <li style="padding-left:1em"><a href="#" title="Condividi"><img
+                                src="./images/share-svgrepo-com.svg"
+                                alt="Condividi"
+                                height="20px"
+                                width="20px"/></a></li>
+                        <li style="padding-left:1em"><a href="#"  title="Accedi"><img
+                                src="./images/bookmark-svgrepo-com.svg"
+                                alt="Accedi"
+                                height="20px"
+                                width="20px"/></a></li>
+                    </ul>
+                    <br>
+                </div>
+            </div>
+            <div>
+                <a href="#" title="article 10" style="padding-right: 20px"><img src="https://unsplash.it/274/150"/></a>
+                <br>
+                <p><a href="#" title="cronaca 6"><b style="color: #8e0000">CRONACA 6</b></a></p>
+                <a class="title" href="#" title="article 1" style="font-size: 20px">Suspendisse sed justo vestibulum,<br>pharetra nisi non, accumsan eros.<br>Curabitur enim purus, euismod</a>
+                <div class="adapter">
+                    <a id="author13" href="#" title="autore" >Di <i>Autore</i></a>
+                    <ul class="social-articles">
+                        <li style="padding-left:1em"><a href="#" title="Commenta"><img
+                                src="./images/comment-discussion-svgrepo-com.svg"
+                                alt="Commenta"
+                                height="20px"
+                                width="20px"/></a></li>
+                        <li style="padding-left:1em"><a href="#" title="Condividi"><img
+                                src="./images/share-svgrepo-com.svg"
+                                alt="Condividi"
+                                height="20px"
+                                width="20px"/></a></li>
+                        <li style="padding-left:1em"><a href="#"  title="Accedi"><img
+                                src="./images/bookmark-svgrepo-com.svg"
+                                alt="Accedi"
+                                height="20px"
+                                width="20px"/></a></li>
+                    </ul>
+                    <br>
+                </div>
+            </div>
+        </section>
+
+    </div>
+    <footer class="footer">
+        <div class="foot">
+            <a id="f-logo" href="#" title="Logo"><img src= "https://unsplash.it/70/70"/></a>
+            <br>
+            <hr color="#FFFFFF">
+            <br>
+            <ul id="f-links" style="list-style-type: none">
+                <li><a href="#"  title="Privacy">PRIVACY</a></li>
+                <li><a href="#" title="Termini e condizioni">TERMINI E CONDIZIONI D'USO</a></li>
+                <li><a href="#" title="FAI PUBBLICITA' CON FQ">FAI PUBBLICITA' CON FQ</a></li>
+                <li><a href="#" title="REDAZIONE">REDAZIONE</a></li>
+                <li><a href="#" title="FONDAZIONE FQ">FONDAZIONE FQ</a></li>
+                <li><a href="#" title="ABBONATI">ABBONATI</a></li>
+                <li><a href="#" title="CAMBIA IMPOSTAZIONI PRIVACY">CAMBIA IMPOSTAZIONI PRIVACY</a></li>
+            </ul>
+            <br>
+            <br>
+            <hr color="#FFFFFF">
+            <br>
+            <ul id="f-social" style="list-style-type: none">
+                <li style="padding-left:2em"> <a href="#"  title="Facebook"><img
+                        src="./images/facebook-svgrepo-com.svg"
+                        alt="Facebook"
+                        height="21px"
+                        width="21px"/></a></li>
+                <li style="padding-left:2em"> <a href="#" title="Messanger"><img
+                        src="./images/messanger-svgrepo-com.svg"
+                        alt="Facebook"
+                        height="21px"
+                        width="21px"/></a></li>
+                <li style="padding-left:2em"><a href="#" title="Instagram"><img
+                        src="./images/instagram-svgrepo-com.svg"
+                        alt="Facebook"
+                        height="21px"
+                        width="21px"/></a></li>
+                <li style="padding-left:2em"><a href="#" title="Newsletter"><img
+                        src="./images/telegram-svgrepo-com.svg"
+                        alt="Facebook"
+                        height="21px"
+                        width="21px"/></a></li>
+                <li style="padding-left:2em"><a href="#" title="Twitter"><img
+                        src="./images/twitter-svgrepo-com.svg"
+                        alt="Facebook"
+                        height="21px"
+                        width="21px" /></a></li>
+                <li style="padding-left:2em"><a href="#" title="Youtube"><img
+                        src="./images/youtube-svgrepo-com.svg"
+                        alt="Facebook"
+                        height="21px"
+                        width="21px"/></a></li>
+            </ul>
+            <br>
+            <br>
+            <hr color="#FFFFFF">
+            <br>
+            <p style="text-align: center">© 20XX - 20XX LOREM IPSUM S.p.A. - C.F. e P.IVA 1234567890</p>
+            <br>
+            <br>
+        </div>
+    </footer>
+
+</body>
+
+</html>
